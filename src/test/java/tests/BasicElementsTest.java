@@ -54,7 +54,7 @@ public class BasicElementsTest extends BaseTest {
     @Test
     public void statusCodeTest() {
         MainPage.statusCodes.click();
-        AddRemoveElementsPage.heading.shouldHave(text("Status Codes"));
+        StatusCodesPage.heading.shouldHave(text("Status Codes"));
 
         List<String> statusCodeTextList = new ArrayList<String>(){{
             add("200");
